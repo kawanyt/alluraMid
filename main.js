@@ -7,7 +7,7 @@ const listaDeTeclas = document.querySelectorAll('.tecla');
  if(Elemento!=null && elemnto.localname==='audio'){
     Elemento.play();
  }
-    while(contador < 9){ 
+ 
 for (contador=0;contador<listaDeTeclas.length; contador++){
     const instrumento=listaDeTeclas[contador];
 
@@ -27,14 +27,9 @@ tecla.onkeyup=function(){
 }
 
 
-
-
     tocaSom('#som_tecla_clap');
     };
-listaDeTeclas[contador].clsslist[1];
-tocaSom('#som_tecla_clap');
-    }
-    (evento.code==='enter')
+    
   
         
     
